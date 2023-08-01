@@ -1,0 +1,34 @@
+
+
+
+   
+
+
+    
+               Employee Management System (frontend)
+            --------------------------------------------
+
+            => npx create-react-app ems-frontend
+            => cd    ems-frontend
+            =>code .
+            => npm start
+            => Clean up the code 
+            =>Install 3rdparty libraries
+               >fontawesome -copy paste cdnjs into index.html
+               >google fonts -copy @import statements and  paste it into index.css
+               > Install react bootstrap -npm i react-bootstrap bootstrap
+               >select bootswatch theme
+
+
+          =>component creation
+
+           >admin
+           >add
+           >view
+           >Edit
+           >page not found
+
+
+        =>path set up
+         >Instal React router dom    - npm i react-router-dom   
+         >import browser Router in index.js     
