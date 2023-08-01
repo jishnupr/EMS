@@ -20,7 +20,7 @@ function Admin() {
   },[])
 
   const deleteEmployee = async(id)=>{
-    const result = await axios.delete('http://localhost:7000//deleteEmployee/'+id)
+    const result = await axios.delete('http://localhost:7000/deleteEmployee/'+id)
     console.log(result);
     alert(result.data.message)
     fetchData()
